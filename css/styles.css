@@ -36,3 +36,52 @@ h4 {
   letter-spacing: 1px;
   font-size: 14px;
 }
+
+body {
+  background: #f5f7fb;
+}
+
+/* Stat cards */
+.stat-card {
+  border: none;
+  border-radius: 12px;
+  transition: 0.2s ease-in-out;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Numbers inside cards */
+.stat-number {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Table card */
+.table-card {
+  border: none;
+  border-radius: 12px;
+}
+
+/* Table styling */
+.table thead {
+  background: #2563eb;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background: #f1f5ff;
+}
+
+/* Search box */
+input.form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Badges spacing */
+.badge {
+  font-size: 12px;
+  padding: 6px 10px;
+}
