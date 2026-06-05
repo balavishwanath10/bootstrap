@@ -1,0 +1,38 @@
+body {
+  background: #f5f7fb;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+/* Title */
+h4 {
+  font-weight: 600;
+}
+
+/* Inputs focus effect */
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: #2563eb;
+}
+
+/* Button styling */
+.btn-primary {
+  background: #2563eb;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #1e40af;
+}
+
+/* Navbar logo text */
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
